@@ -31,9 +31,9 @@ class Personnage {
         // en elle même et pas à ses instances
     }
 
-    public static function getNumInstances() {
+    public static function getNumInstances() : int{
         // Complétez le code ici
-        return
+        return self::$numInstances;
     }
 
     // Méthode permettant de déplacer le personnage vers la droite
